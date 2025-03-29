@@ -1,6 +1,6 @@
 問診AI
 
-![menu](https://github.com/MotoyaTakashi/test/images/menu.png)
+![menu](https://github.com/MotoyaTakashi/test/tree/main/images/menu.png)
 
 ## 概要
 
