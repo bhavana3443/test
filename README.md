@@ -1,6 +1,6 @@
 問診AI
 
-![menu](https://github.com/MotoyaTakashi/test/tree/main/images/menu.png)
+<img width="1030" alt="Image" src="https://github.com/MotoyaTakashi/test/tree/main/images/menu.png" />
 
 ## 概要
 
