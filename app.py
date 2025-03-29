@@ -537,7 +537,7 @@ def chat_to_gpt_4o_temperature_0(prompt):
 def chat_to_deepseek(prompt):
     url = "https://api.deepseek.com/v1/chat/completions"
     headers = {
-        "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+        "Authorization": f"Bearer {st.session_state.get('deepseek_api_key', DEEPSEEK_API_KEY)}",
         "Content-Type": "application/json"
     }
     data = {
@@ -564,7 +564,7 @@ def chat_to_deepseek(prompt):
 def chat_to_deepseek_temperature_0(prompt):
     url = "https://api.deepseek.com/v1/chat/completions"
     headers = {
-        "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+        "Authorization": f"Bearer {st.session_state.get('deepseek_api_key', DEEPSEEK_API_KEY)}",
         "Content-Type": "application/json"
     }
     data = {
@@ -884,6 +884,8 @@ def main():
                     st.session_state["api_keys"]["deepseek"] = api_key
                     global DEEPSEEK_API_KEY
                     DEEPSEEK_API_KEY = api_key
+                    # セッションステートにも保存
+                    st.session_state["deepseek_api_key"] = api_key
                 
                 st.session_state.step = 1
                 st.rerun()
