@@ -1,5 +1,7 @@
 問診AI
 
+![menu](https://github.com/MotoyaTakashi/test/images/menu.png)
+
 ## 概要
 
 ## 主な機能
