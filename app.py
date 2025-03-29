@@ -848,6 +848,11 @@ def main():
 
     # サイドバーにモデル設定を配置
     with st.sidebar:
+        st.markdown("### フィードバック")
+        st.markdown("ご意見・ご要望があれば以下までお願いいたします。")
+        st.markdown("[GitHub Issues](https://github.com/yusukewatanabe1208/test/issues)")
+        st.markdown("---")  # Add a separator line
+        
         st.subheader("AIモデルの設定")
         
         # モデル選択（ドロップダウンリスト）
