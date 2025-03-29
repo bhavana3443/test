@@ -42,7 +42,3 @@ http://localhost:8501
 ## データ形式
 
 ## 制限事項
-
-## ライセンス
-MIT License
-
