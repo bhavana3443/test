@@ -890,16 +890,6 @@ def main():
             else:
                 st.error("APIキーを入力してください。")
 
-        # APIキーをリセットするボタン
-        if st.button("APIキーをリセット"):
-            st.session_state["api_keys"] = {
-                "openai": "",
-                "deepseek": ""
-            }
-            st.session_state["selected_model"] = None
-            st.session_state.step = 0
-            st.rerun()
-
     # メインコンテンツ
     if st.session_state.step == 0:
         st.info("左側のサイドバーからAIモデルを選択し、APIキーを入力してください。")
