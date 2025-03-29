@@ -850,7 +850,7 @@ def main():
     with st.sidebar:
         st.markdown("### フィードバック")
         st.markdown("ご意見・ご要望があれば以下までお願いいたします。")
-        st.markdown("[アンケートフォーム](https://forms.gle/MuRWMHM23wPwPAQH8)")
+        st.markdown("[アンケート](https://forms.gle/MuRWMHM23wPwPAQH8)")
         st.markdown("[GitHub Issues](https://github.com/yusukewatanabe1208/test/issues)")
         st.markdown("---")  # Add a separator line
         
