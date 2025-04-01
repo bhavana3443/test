@@ -18,13 +18,13 @@ streamlitによる直感的なUI作成
 - Streamlitベースの使いやすいUI
 
 
-### 1. 必要なパッケージのインストール
+### 1. 必要なパッケージのインストールa
 ```bash
 pip install -r requirements.txt
 pip install google-generativeai
 ```
 
-## 使用方法
+## 使用方法12
 
 ### A. Webインターフェースでの実行（推奨）
 
