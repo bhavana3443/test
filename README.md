@@ -1,4 +1,4 @@
-# 問診AI
+# BhavanaAI
 
 streamlitによる直感的なUI作成
 ![](images/menu.png)
